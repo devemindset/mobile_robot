@@ -1,0 +1,42 @@
+[0.839s] Invoking command in '/home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1': PYTHONPATH=/home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/prefix_override:/home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/build
+[1.202s] running develop
+[1.437s] Removing /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages/mobile-robot-v1.egg-link (link to .)
+[1.473s] Invoked command in '/home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1' returned '0': PYTHONPATH=/home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/prefix_override:/home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/build
+[1.476s] Invoking command in '/home/mona_robot/Desktop/mob_robot_project/robot_ws/src/mobile_robot_v1': PYTHONPATH=/home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/prefix_override:/home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mobile_robot_v1 build --build-base /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/build install --record /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/install.log --single-version-externally-managed install_data --force
+[1.815s] running egg_info
+[1.816s] writing ../../build/mobile_robot_v1/mobile_robot_v1.egg-info/PKG-INFO
+[1.816s] writing dependency_links to ../../build/mobile_robot_v1/mobile_robot_v1.egg-info/dependency_links.txt
+[1.816s] writing entry points to ../../build/mobile_robot_v1/mobile_robot_v1.egg-info/entry_points.txt
+[1.817s] writing requirements to ../../build/mobile_robot_v1/mobile_robot_v1.egg-info/requires.txt
+[1.817s] writing top-level names to ../../build/mobile_robot_v1/mobile_robot_v1.egg-info/top_level.txt
+[1.819s] reading manifest file '../../build/mobile_robot_v1/mobile_robot_v1.egg-info/SOURCES.txt'
+[1.843s] adding license file 'LICENSE'
+[1.844s] writing manifest file '../../build/mobile_robot_v1/mobile_robot_v1.egg-info/SOURCES.txt'
+[1.844s] running build
+[1.844s] running build_py
+[1.844s] creating /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/build
+[1.845s] creating /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/build/lib
+[1.845s] creating /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/build/lib/mobile_robot_v1
+[1.845s] copying mobile_robot_v1/__init__.py -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/build/lib/mobile_robot_v1
+[1.845s] copying mobile_robot_v1/keyboard_teleop.py -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/build/lib/mobile_robot_v1
+[1.845s] running install
+[1.845s] running install_lib
+[1.846s] creating /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages/mobile_robot_v1
+[1.846s] copying /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/build/lib/mobile_robot_v1/__init__.py -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages/mobile_robot_v1
+[1.847s] copying /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/build/lib/mobile_robot_v1/keyboard_teleop.py -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages/mobile_robot_v1
+[1.847s] byte-compiling /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages/mobile_robot_v1/__init__.py to __init__.cpython-310.pyc
+[1.847s] byte-compiling /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages/mobile_robot_v1/keyboard_teleop.py to keyboard_teleop.cpython-310.pyc
+[1.848s] running install_data
+[1.849s] copying resource/mobile_robot_v1 -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/ament_index/resource_index/packages
+[1.849s] copying package.xml -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1
+[1.849s] copying launch/display.launch.py -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1/launch
+[1.849s] copying urdf/robot_mobile.urdf.xacro -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1/urdf
+[1.849s] copying urdf/robot_core.xacro -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1/urdf
+[1.849s] copying rviz/conf_chassis.rviz -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1/rviz
+[1.849s] copying launch/gazebo.launch.py -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1/launch
+[1.850s] running install_egg_info
+[1.852s] Copying ../../build/mobile_robot_v1/mobile_robot_v1.egg-info to /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages/mobile_robot_v1-0.0.0-py3.10.egg-info
+[1.853s] running install_scripts
+[1.876s] Installing keyboard_teleop script to /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/mobile_robot_v1
+[1.876s] writing list of installed files to '/home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/install.log'
+[1.906s] Invoked command in '/home/mona_robot/Desktop/mob_robot_project/robot_ws/src/mobile_robot_v1' returned '0': PYTHONPATH=/home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/prefix_override:/home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mobile_robot_v1 build --build-base /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/build install --record /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/install.log --single-version-externally-managed install_data --force

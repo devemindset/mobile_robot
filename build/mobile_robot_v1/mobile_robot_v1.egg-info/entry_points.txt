@@ -1,0 +1,4 @@
+[console_scripts]
+keyboard_teleop = mobile_robot_v1.keyboard_teleop:main
+tf_broadcaster = mobile_robot_v1.tf_broadcaster:main
+

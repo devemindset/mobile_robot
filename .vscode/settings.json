@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/mona_robot/Desktop/drone_project/drone_ws/build/drone_controller",
+        "/home/mona_robot/Desktop/drone_project/drone_ws/install/drone_controller/lib/python3.10/site-packages",
+        "/home/mona_robot/Desktop/ros2_ws_try/build/my_robot_controller",
+        "/home/mona_robot/Desktop/ros2_ws_try/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1",
+        "/home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages",
+        "/home/mona_robot/Desktop/ros2_ws_mobile_robot/build/my_robot_controller",
+        "/home/mona_robot/Desktop/ros2_ws_mobile_robot/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/mona_robot/Desktop/drone_project/drone_ws/build/drone_controller",
+        "/home/mona_robot/Desktop/drone_project/drone_ws/install/drone_controller/lib/python3.10/site-packages",
+        "/home/mona_robot/Desktop/ros2_ws_try/build/my_robot_controller",
+        "/home/mona_robot/Desktop/ros2_ws_try/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1",
+        "/home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages",
+        "/home/mona_robot/Desktop/ros2_ws_mobile_robot/build/my_robot_controller",
+        "/home/mona_robot/Desktop/ros2_ws_mobile_robot/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

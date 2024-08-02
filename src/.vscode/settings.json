@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/mona_robot/Desktop/mobile_robot_project/ros2_ws_mobile_robot_controller/install/mobile_robot_controller_v1/lib/python3.10/site-packages",
+        "/home/mona_robot/Desktop/ros2_ws_mobile_robot/build/my_robot_controller",
+        "/home/mona_robot/Desktop/ros2_ws_mobile_robot/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/mona_robot/Desktop/ros2_ws_try/build/my_robot_controller",
+        "/home/mona_robot/Desktop/ros2_ws_try/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/mona_robot/Desktop/mobile_robot_project/ros2_ws_mobile_robot_controller/install/mobile_robot_controller_v1/lib/python3.10/site-packages",
+        "/home/mona_robot/Desktop/ros2_ws_mobile_robot/build/my_robot_controller",
+        "/home/mona_robot/Desktop/ros2_ws_mobile_robot/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/mona_robot/Desktop/ros2_ws_try/build/my_robot_controller",
+        "/home/mona_robot/Desktop/ros2_ws_try/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

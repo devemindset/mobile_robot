@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating mobile_robot_v1.egg-info
+writing mobile_robot_v1.egg-info/PKG-INFO
+writing dependency_links to mobile_robot_v1.egg-info/dependency_links.txt
+writing entry points to mobile_robot_v1.egg-info/entry_points.txt
+writing requirements to mobile_robot_v1.egg-info/requires.txt
+writing top-level names to mobile_robot_v1.egg-info/top_level.txt
+writing manifest file 'mobile_robot_v1.egg-info/SOURCES.txt'
+reading manifest file 'mobile_robot_v1.egg-info/SOURCES.txt'
+writing manifest file 'mobile_robot_v1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages/mobile-robot-v1.egg-link (link to .)
+Installing keyboard_teleop script to /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/mobile_robot_v1
+
+Installed /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1
+running symlink_data
+creating /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/ament_index
+creating /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/ament_index/resource_index
+creating /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/ament_index/resource_index/packages
+symbolically linking /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/resource/mobile_robot_v1 -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/ament_index/resource_index/packages
+symbolically linking /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/package.xml -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1
+creating /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1/launch
+symbolically linking /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/launch/display.launch.py -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1/launch
+creating /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1/urdf
+symbolically linking /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/urdf/robot_mobile.urdf.xacro -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1/urdf
+symbolically linking /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/urdf/robot_core.xacro -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1/urdf
+creating /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1/rviz
+symbolically linking /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/rviz/conf_chassis.rviz -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1/rviz
+symbolically linking /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/launch/gazebo.launch.py -> /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/share/mobile_robot_v1/launch

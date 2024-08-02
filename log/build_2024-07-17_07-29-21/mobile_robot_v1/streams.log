@@ -1,0 +1,18 @@
+[1.289s] Invoking command in '/home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1': PYTHONPATH=/home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/prefix_override:/home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/build --no-deps symlink_data
+[1.684s] running develop
+[1.931s] running egg_info
+[1.931s] writing mobile_robot_v1.egg-info/PKG-INFO
+[1.932s] writing dependency_links to mobile_robot_v1.egg-info/dependency_links.txt
+[1.932s] writing entry points to mobile_robot_v1.egg-info/entry_points.txt
+[1.932s] writing requirements to mobile_robot_v1.egg-info/requires.txt
+[1.932s] writing top-level names to mobile_robot_v1.egg-info/top_level.txt
+[1.936s] reading manifest file 'mobile_robot_v1.egg-info/SOURCES.txt'
+[1.957s] writing manifest file 'mobile_robot_v1.egg-info/SOURCES.txt'
+[1.959s] running build_ext
+[1.959s] Creating /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages/mobile-robot-v1.egg-link (link to .)
+[1.960s] Installing keyboard_teleop script to /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/mobile_robot_v1
+[1.961s] Installing tf_broadcaster script to /home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/mobile_robot_v1
+[1.961s] 
+[1.961s] Installed /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1
+[1.961s] running symlink_data
+[2.004s] Invoked command in '/home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1' returned '0': PYTHONPATH=/home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/prefix_override:/home/mona_robot/Desktop/mob_robot_project/robot_ws/install/mobile_robot_v1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mona_robot/Desktop/mob_robot_project/robot_ws/build/mobile_robot_v1/build --no-deps symlink_data
