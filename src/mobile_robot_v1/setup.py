@@ -16,7 +16,6 @@ setup(
         ("share/" + package_name + "/urdf",["urdf/gazebo_control.xacro"]),
         ("share/" + package_name + "/rviz",["rviz/conf_chassis.rviz"]),
         ("share/" + package_name + "/launch",["launch/gazebo.launch.py"]),
-        ("share/" + package_name + "/launch",["launch/combined_launch.py"]),
 
     ],
     install_requires=['setuptools'],
