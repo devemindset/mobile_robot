@@ -13,7 +13,7 @@ def generate_launch_description():
         executable="robot_state_publisher",
         parameters=[ {"robot_description" : Command(["xacro ", LaunchConfiguration("model")])}]
     )
-    join_state_publisher_gui_node = launch_ros.actions.Node(
+    joint_state_publisher_gui_node = launch_ros.actions.Node(
         package="joint_state_publisher_gui",
         executable="joint_state_publisher_gui",
         name="joint_state_publisher_gui",
@@ -29,7 +29,7 @@ def generate_launch_description():
     return launch.LaunchDescription([
         launch.actions.DeclareLaunchArgument(name="model",default_value=default_model_path,description="Absolute path to robot urdf file"),
         launch.actions.DeclareLaunchArgument(name="rvizconfig",default_value=default_rviz_config_path,description="Absolute path to rviz config file"),
-        join_state_publisher_gui_node,
+        joint_state_publisher_gui_node,
         robot_state_publisher_node,
         rviz_node
     ])

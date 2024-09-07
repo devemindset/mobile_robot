@@ -19,7 +19,7 @@ def generate_launch_description():
         output="screen",
         parameters=[{"use_sim_time" : use_sim_time,'robot_description' : Command(["xacro " , LaunchConfiguration("model")])}]
     )
-
+ 
     #path to the gazebo_ros package
     """
     
