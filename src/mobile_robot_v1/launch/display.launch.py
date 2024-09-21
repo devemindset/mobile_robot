@@ -8,9 +8,9 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
     # Define package and file paths
-    package_name = 'mobile_robot_v1'  # Replace with your package name
-    xacro_file_name = 'robot_mobile.urdf.xacro'  # Replace with your xacro file name
-    rviz_config_file_name = 'conf_chassis.rviz'  # Replace with your rviz config file name if available
+    package_name = 'mobile_robot_v1'  #  package name
+    xacro_file_name = 'robot_mobile.urdf.xacro'  # xacro file name
+    rviz_config_file_name = 'conf_chassis.rviz'  # file name if available
 
     # Paths
     xacro_file_path = os.path.join(get_package_share_directory(package_name), 'urdf', xacro_file_name)

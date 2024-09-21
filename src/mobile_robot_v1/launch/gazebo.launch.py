@@ -3,7 +3,6 @@ from launch.substitutions import Command, LaunchConfiguration
 import launch_ros
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.actions import IncludeLaunchDescription
-from ament_index_python.packages import get_package_share_directory
 import os 
 
 def generate_launch_description():
@@ -20,18 +19,7 @@ def generate_launch_description():
         parameters=[{"use_sim_time" : use_sim_time,'robot_description' : Command(["xacro " , LaunchConfiguration("model")])}]
     )
  
-    #path to the gazebo_ros package
-    """
     
-    gazebo_ros_pkg = get_package_share_directory("gazebo_ros")
-    
-    gazebo_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            [gazebo_ros_pkg,"/launch/gazebo.launch.py"],
-            
-        ),launch_arguments={"use_sim_time": use_sim_time}.items()
-    )
-    """
     joint_state_publisher_node = launch_ros.actions.Node(
         package="joint_state_publisher",
         executable="joint_state_publisher",
